@@ -1,0 +1,192 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.2.1"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 11904,
+			"type": "SCALAR",
+			"componentType": 5123
+		},
+		{
+			"bufferView": 1,
+			"count": 2333,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ -1.5999999, -1.5999999, -1.5999999 ],
+			"max": [ 1.5999999, 1.5999999, 1.5999999 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 2333,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 2333,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 2333,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 2333,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "MM_BaseMaster.bin",
+			"byteLength": 154456
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 23808,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27996,
+			"byteOffset": 23808,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27996,
+			"byteOffset": 51804,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 37328,
+			"byteOffset": 79800,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18664,
+			"byteOffset": 117128,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 18664,
+			"byteOffset": 135792,
+			"target": 34962
+		}
+	],
+	"images": [
+		{
+			"uri": "MM_BaseMaster_BaseColor.png"
+		},
+		{
+			"uri": "MM_BaseMaster_MetallicRoughness.png"
+		},
+		{
+			"uri": "MM_BaseMaster_Normal.png"
+		},
+		{
+			"uri": "MM_BaseMaster_Occlusion.png"
+		}
+	],
+	"materials": [
+		{
+			"name": "MM_BaseMaster",
+			"pbrMetallicRoughness":
+			{
+				"baseColorTexture":
+				{
+					"index": 0
+				},
+				"metallicRoughnessTexture":
+				{
+					"index": 1
+				}
+			},
+			"normalTexture":
+			{
+				"index": 2
+			},
+			"occlusionTexture":
+			{
+				"index": 3
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "EditorSphere",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"samplers": [
+		{
+			"minFilter": 9987,
+			"magFilter": 9729
+		},
+		{
+			"minFilter": 9984,
+			"magFilter": 9728,
+			"wrapS": 33071,
+			"wrapT": 33071
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	],
+	"textures": [
+		{
+			"name": "MM_BaseMaster_BaseColor",
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"name": "MM_BaseMaster_MetallicRoughness",
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"name": "MM_BaseMaster_Normal",
+			"sampler": 0,
+			"source": 2
+		},
+		{
+			"name": "MM_BaseMaster_Occlusion",
+			"sampler": 1,
+			"source": 3
+		}
+	]
+}
